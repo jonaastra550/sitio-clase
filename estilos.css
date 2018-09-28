@@ -1,0 +1,43 @@
+
+/* 1° Declaro las variables en la raiz de nuestro sitio para declararla en 
+	cualquier lado.*/
+
+:root{
+	/*le pongo -- para identificar que es una variable */
+	--blanco: #FFF;
+	--negro: #000;
+	--naranja: #F90;
+
+}
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{ 
+	font-family: arial;
+	background-image: url(images/pattern.jpg);
+}
+
+.cabecera{
+		margin: auto;
+		max-width: 1000px;
+		
+
+}
+
+
+.contenido{
+	 margin: auto;
+		max-width: 1000px;
+		
+			/* 2° usamos la variable 
+			la agregamos entre ver */
+			background-color: var(--blanco);
+	
+	
+}
